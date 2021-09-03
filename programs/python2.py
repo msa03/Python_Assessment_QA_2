@@ -34,7 +34,7 @@ import random
 def one(string):
     complete = ""
     for i in range(0, len(string)):
-        complete = complete + string[i] + string[i] + string[i]
+        complete = complete + string[i]*3
     return complete
 
 
