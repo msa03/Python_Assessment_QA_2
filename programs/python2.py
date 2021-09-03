@@ -213,9 +213,8 @@ def seven(a, b, c):
 
 
 def eight(string, num):
-    for i in string:
-    
-        return ""
+    if len(string)%2!=0:
+        return string
 
     # <QUESTION 9>
 
