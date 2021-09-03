@@ -55,7 +55,11 @@ def one(string):
 
 
 def two(num):
-    return
+    for i in range(2, num):
+        if (num %i) == 0:
+            return False
+        else:
+            return True
 
     # <QUESTION 3>
 
@@ -73,7 +77,7 @@ def two(num):
 
 
 def three(a):
-    return
+    return 4*a + 30*a + 200*a +1000*a
 
     # <QUESTION 4>
 
