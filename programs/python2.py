@@ -188,7 +188,12 @@ def six(string):
 
 
 def seven(a, b, c):
-    return
+    list = [a, b, c]
+    order_list = sorted(list)
+    if order_list[1]-order_list[0] == order_list[2]-order_list[1]:
+        return True
+    else:
+        return False
 
     # <QUESTION 8>
 
