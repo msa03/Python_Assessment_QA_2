@@ -133,17 +133,14 @@ def four(string1, string2):
 
 import random
 def five():
-    rand_list = []
+    
     n = 0
+    rand_list = []
     while n < 5:
-        rand_num = random.randint(100, 201)
-        rand_list.append(rand_num)
-        print(rand_list)
-        if rand_num%2!=0:
-            rand_num = random.randint(100, 201)
-
+        
+        rand_list.append(random.randrange(100,200,2))
         n += 1
-    return ""
+    return rand_list
 
     # <QUESTION 6>
 
