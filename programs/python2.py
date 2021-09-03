@@ -107,7 +107,11 @@ def three(a):
 
 
 def four(string1, string2):
-    return
+    joined = ""
+    for i in range(len(string1)):
+        joined = joined + string1[i] + string2[i]
+        
+    return joined
 
     # <QUESTION 5>
 
