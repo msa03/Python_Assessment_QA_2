@@ -55,11 +55,15 @@ def one(string):
 
 
 def two(num):
-    for i in range(2, num):
-        if (num %i) == 0:
-            return False
+    if num>1:
+
+        for i in range(2, num):
+            if (num %i) == 0:
+                return False
         else:
             return True
+    else:
+        False
 
     # <QUESTION 3>
 
