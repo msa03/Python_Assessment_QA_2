@@ -32,7 +32,11 @@ import random
 
 
 def one(string):
-    return
+    complete = ""
+    for i in range(0, len(string)):
+        complete = complete + string[i] + string[i] + string[i]
+    return complete
+
 
     # <QUESTION 2>
 
