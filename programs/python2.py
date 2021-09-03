@@ -77,7 +77,7 @@ def two(num):
 
 
 def three(a):
-    return 4*a + 30*a + 200*a +1000*a
+    return 1234*a 
 
     # <QUESTION 4>
 
@@ -212,7 +212,9 @@ def seven(a, b, c):
 
 
 def eight(string, num):
-    return
+    for i in string:
+    
+        return ""
 
     # <QUESTION 9>
 
@@ -231,7 +233,20 @@ def eight(string, num):
 
 def nine(string1, string2):
     # make sure string1 is the shortest of the two
-    return
+    if len(string1)> len(string2):
+        shortest = string2
+        longest = string1
+        for i in range(len(shortest)):
+            if str[i] in longest:
+                return True
+            else:
+                return False
+    else:
+        for i in range(len(string1)):
+            if str[i] in string2:
+                return True
+            else:
+                return False    
 
     # <QUESTION 10>
 
